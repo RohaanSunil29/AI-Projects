@@ -27,7 +27,16 @@ The skill also includes reference frameworks for competitive landscape mapping (
 
 **How to use it:** add the `competitive-brief` folder as a skill in Claude, then ask for a brief, e.g. *"Write a competitive brief on Citroën's electric range vs. its main rivals in France, focusing on pricing and product features."*
 
-**Example output:** I used this skill for a competitive brief comparing Citroën's electric range against rivals in the French market on pricing and product features.
+**Example output:** [Citroën EV Competitive Brief — France, Oct 2026](competitive-brief/examples/citroen-ev-competitive-brief.md)
+
+I used this skill to compare Citroën's four electric cars (ë-C3, ë-C3 Aircross, ë-C4, ë-C5 Aircross) against 12 rivals in the French market, including Renault, Dacia, Tesla, VW and Chinese newcomers. The brief covers:
+
+- **Pricing and feature matrices** built from manufacturer price lists and the French motoring press
+- **French EV incentives** (CEE prime, leasing social 2026) and how they shift competition
+- **Sales momentum** from September 2026 registration data
+- **Positioning and SWOT**, ending in five strategic recommendations for Citroën
+
+Key finding: Citroën competes on headline price alone, a position rivals can easily copy, while its real advantage is space-per-euro.
 
 > Credit: this skill comes from Anthropic's product-management plugin for Claude. I've adapted it lightly for standalone use.
 
