@@ -38,8 +38,6 @@ I used this skill to compare Citroën's four electric cars (ë-C3, ë-C3 Aircros
 
 Key finding: Citroën competes on headline price alone, a position rivals can easily copy, while its real advantage is space-per-euro.
 
-> Credit: this skill comes from Anthropic's product-management plugin for Claude. I've adapted it lightly for standalone use.
-
 ---
 
 *Author: [Rohaan Sunil](https://github.com/RohaanSunil29)*
