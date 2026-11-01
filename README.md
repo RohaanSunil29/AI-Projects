@@ -38,6 +38,29 @@ I used this skill to compare Citroën's four electric cars (ë-C3, ë-C3 Aircros
 
 Key finding: Citroën competes on headline price alone, a position rivals can easily copy, while its real advantage is space-per-euro.
 
+## Workflows
+
+### Research Report
+
+[`research-report-workflow/`](research-report-workflow/)
+
+A Claude Code workflow that turns a topic into a cited research report. Type `/research <topic>`. Claude asks what you need, shows its plan, researches in depth with parallel agents, and saves a structured report.
+
+**How it works**
+
+- **Clarify:** scope, audience and specifics, before any searching
+- **Plan:** the brief and sub-questions, approved by you
+- **Research:** a deep dive aiming for 15+ sources, favoring primary ones
+- **Report:** bottom line, cited findings, where sources disagree, key takeaways and next steps
+
+**How to use it:** open the `research-report-workflow` folder in Claude Code and run `/research <your topic>`.
+
+**Example output:** [State of AI Agents 2026](research-report-workflow/output/2026-10-30-state-of-ai-agents-2026.md)
+
+I used this workflow to research what individuals and creators use AI agents for, what works, what is overhyped, and where it is heading. The report has 99 cited sources, with each claim labeled as independent evidence, survey, vendor claim, forecast or anecdote. The research notes behind it are in [`research_notes/`](research-report-workflow/research_notes/State%20of%20AI%20agents%202026/).
+
+Key finding: agents earn their keep on work you can check and undo, such as coding with tests, and the "digital employee" claims are the most overhyped.
+
 ---
 
 *Author: [Rohaan Sunil](https://github.com/RohaanSunil29)*
